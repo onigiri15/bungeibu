@@ -1,5 +1,7 @@
-import { Button } from "@suid/material";
+import { useNavigate } from "@solidjs/router";
 import { Meta, Title } from "@solidjs/meta";
+
+import { Button } from "@suid/material";
 
 import logo2024100 from "../assets/SF2024LOGO100.webp";
 import logo2024200 from "../assets/SF2024LPOGO200.webp";
@@ -10,9 +12,11 @@ import logo2024 from "../assets/SF2024LOGO1375.webp";
 
 import "./css/SF.css";
 
+
 //meta-descriptionの追加がいる
 
 const SF = () => {
+  const navigate=useNavigate()
   return (
     <>
       <Title>スクールフェア|文芸部</Title>
@@ -34,6 +38,7 @@ const SF = () => {
         <h2 class="sf-year">2024</h2>
         <h2 class="sf-title">星光満天宮</h2>
       </Button>
+      <Button onClick={() => navigate("/")} >ホームへ</Button>
     </>
   );
 };
