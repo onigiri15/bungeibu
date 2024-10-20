@@ -1,0 +1,1 @@
+import{o as n,c as e,T as r,M as a,t}from"./index-b4e015ac.js";var m=t("<h1>members"),s=t("<h2>onigiri");const c=o=>(n(()=>{console.log("onMount")}),[e(r,{children:"Members|大阪星光文芸部"}),e(a,{get content(){return o.metaDescription},name:"description"}),m(),s()]);export{c as default};

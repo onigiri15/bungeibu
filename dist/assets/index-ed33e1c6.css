@@ -1,0 +1,1 @@
+#root{position:absolute;top:0%;left:0%;margin:0%;padding:0%}#welcomebg{position:absolute;display:flex;height:100vh;width:100vw;background-color:#000;z-index:800}.title{position:relative;left:20vw;top:20vh;font-size:10vw;color:#fff;text-align:center;filter:blur(5px);transition:.5s ease-in-out 0s}.title.mounted{filter:blur(0px)}
